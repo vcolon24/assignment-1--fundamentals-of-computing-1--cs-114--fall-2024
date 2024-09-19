@@ -1,3 +1,4 @@
+import java.util.Random;
 
 public class Assignment1 {
   public static void main(String[] args) {
@@ -21,15 +22,15 @@ public class Assignment1 {
     String originalstring = "vahlc";
     StringBuilder sb = new StringBuilder(originalstring);
     String reversedString = sb.reverse().toString();
-    System.out.println(reversedString);
+    System.out.println(originalstring);
 
     System.out.print("Random number generated. continuing... \n");
-    Funciton getRandomNumber
-
-    reversedString.substring(1,4);
-    StringBuilder sb = new StringBuilder(reversedString)
-    System.out.println("Your new string is" + (reversedString);
-
+    
+    Random random = new Random();
+    int randomNumber = 32 + random.nextInt(16353); // Generates a number between 32 and 16384
+    String substring = reversedString.substring(1, 4);
+    String.format("%.2f", randomNumber / 100.0);
+    System.out.println("your new string is " + substring + randomNumber);
   }
 
   }
